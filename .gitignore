@@ -1,0 +1,27 @@
+# Local secrets and private configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.secure
+
+# Dependencies, outputs, and local scratch material
+node_modules/
+coverage/
+dist/
+build/
+work/
+outputs/
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# OS and editor metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
