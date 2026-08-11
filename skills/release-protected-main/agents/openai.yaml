@@ -1,0 +1,4 @@
+interface:
+  display_name: "Protected Main Release"
+  short_description: "Prepare protected-main releases safely"
+  default_prompt: "Use $release-protected-main to prepare a fail-closed protected-main release."

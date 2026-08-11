@@ -1,0 +1,4 @@
+interface:
+  display_name: "Capture Discord Acceptance"
+  short_description: "Capture safe Discord live acceptance evidence"
+  default_prompt: "Use $capture-discord-live-acceptance to capture fail-closed Discord live acceptance."

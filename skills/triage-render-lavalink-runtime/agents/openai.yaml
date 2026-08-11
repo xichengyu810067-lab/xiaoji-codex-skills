@@ -1,0 +1,4 @@
+interface:
+  display_name: "Triage Lavalink Runtime"
+  short_description: "Triage Render and Lavalink runtime safely"
+  default_prompt: "Use $triage-render-lavalink-runtime to diagnose a Render and Lavalink runtime."

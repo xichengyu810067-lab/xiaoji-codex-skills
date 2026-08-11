@@ -1,0 +1,4 @@
+interface:
+  display_name: "Recover Nyanko Worktree"
+  short_description: "Safely assess a dirty Nyanko worktree"
+  default_prompt: "Use $recover-nyanko-dirty-worktree to safely assess a dirty Nyanko worktree."
