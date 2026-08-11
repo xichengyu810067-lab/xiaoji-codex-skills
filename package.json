@@ -9,7 +9,7 @@
     "node": ">=22"
   },
   "scripts": {
-    "test": "node tests/structure.test.mjs",
+    "test": "node --test tests/*.test.mjs",
     "validate": "node scripts/validate-evidence-contract.mjs",
     "check:public": "node scripts/check-public-content.mjs"
   }
