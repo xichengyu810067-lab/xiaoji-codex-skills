@@ -14,8 +14,8 @@ assert.match(capture, /只允許 `TVHTML5_SIMPLY`.*不要使用主 Google 帳號
 assert.match(triage, /AllClientsFailedException.*requires login.*停止重送.*`FAIL`.*`BLOCKED`/s);
 assert.match(capture, /AllClientsFailedException.*requires login.*`FAIL`.*`BLOCKED`.*不得以 OAuth.*重試/s);
 assert.match(triage, /loadtracks.*URL parse.*不等於播放/s);
-assert.match(triage, /五個相異.*TrackStart.*正在播放/s);
-assert.match(capture, /五個相異.*TrackStart.*已開始播放.*正在播放/s);
+assert.match(triage, /五個相異.*actual `TrackStart`.*正在播放/s);
+assert.match(capture, /五個相異.*actual `TrackStart`.*已開始播放.*正在播放/s);
 assert.match(triage, /queue、pause、resume、skip、stop.*五個獨立.*時間序列.*不要把已完成的播放 gate 延伸成 controls `PASS`/s);
 assert.match(capture, /queue、pause、resume、skip、stop.*各自需要一條獨立時間序列.*未執行.*`BLOCKED`.*`PARTIAL`/s);
 assert.match(triage, /question\.md.*不要放入正式環境位置、帳號、guild、URL、secret.*影片識別值/s);
